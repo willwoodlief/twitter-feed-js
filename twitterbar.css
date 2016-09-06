@@ -1,0 +1,51 @@
+/*
+css for ticker
+*/
+
+
+.tickercontainer {
+    width: 1000px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+    color: black;
+}
+.tickercontainer .mask {
+    position: relative;
+    top: 2px;
+    height: 23px;
+    overflow: hidden;
+}
+ul.newsticker {
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    -o-transition: all 0s linear;
+    transition: all 0s linear;
+    position: relative;
+    font: bold 10px Verdana;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.newsticker li {
+    float: left;
+    margin: 0;
+    padding: 0 7px;
+    box-sizing:border-box;
+}
+
+
+
+li.newslink  a:link {
+    background-color: beige;
+    color: blue;
+}
+
+
+
+
+
+
+
