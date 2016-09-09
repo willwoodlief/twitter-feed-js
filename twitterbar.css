@@ -9,8 +9,8 @@ css for ticker
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: beige;
-    color: black;
+    background-color: black;
+    color: limegreen;
 }
 .tickercontainer .mask {
     position: relative;
@@ -39,8 +39,19 @@ ul.newsticker li {
 
 
 li.newslink  a:link {
-    background-color: beige;
-    color: blue;
+    background-color: black;
+    color: limegreen;
+}
+
+span.twitter-user-name {
+    color: limegreen;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 
